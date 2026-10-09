@@ -59,8 +59,9 @@ I have prior industry experience as a Senior Research Data Scientist and current
 ### Teaching Assistant | University of North Texas
 Aug 2026 - Present
 
-- Mentor students in statistical modeling, forecasting, experimental design, and scientific communication.
-- Support rigorous analytical thinking and practical decision-making in data science and analytics coursework.
+- Teaching Assistant for Applied Statistics for undergraduate students.
+- Support students in statistical modeling, forecasting, experimental design, and scientific communication.
+- Help bridge theoretical concepts with practical analytical reasoning and real-world data applications.
 
 ### Senior Research Data Scientist | dunnhumby
 Jul 2022 - Nov 2025

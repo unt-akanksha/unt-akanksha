@@ -1,12 +1,12 @@
 <h1 align="center">Akanksha Tiwari</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Senior%20Data%20Scientist-Forecasting%20%7C%20MMM%20%7C%20Decision%20Science-0A66C2" alt="Senior Data Scientist" />
+  <img src="https://img.shields.io/badge/Student%20at%20UNT-Data%20Science%20%7C%20Statistics%20%7C%20Analytics-0A66C2" alt="Student at UNT" />
   <img src="https://img.shields.io/badge/Location-Dallas%2C%20Texas-FF6B6B" alt="Location" />
 </p>
 
 <p align="center">
-  <em>Data Scientist building production ML systems for forecasting, media measurement, personalization, and decision intelligence.</em>
+  <em>Graduate student in data analytics and operations research, with applied experience in forecasting, MMM, NLP, and decision science.</em>
 </p>
 
 <p align="center">
@@ -18,9 +18,9 @@
 
 ## About Me
 
-Data scientist with 4+ years of experience building production forecasting, recommendation, NLP, and decision-support systems across large-scale structured and unstructured data. My work sits at the intersection of statistics, operational research, and applied ML — with a strong foundation in experimentation, optimization, and decision science.
+Graduate student at the University of North Texas with a strong analytical foundation in statistics, operational research, and applied data science. I build forecasting, recommendation, NLP, and decision-support systems using large-scale structured and unstructured data, and I am especially interested in media measurement, experimentation, and optimization.
 
-I work with product, engineering, and business teams to turn analytical insight into measurable outcomes across marketing, customer experience, and operational performance.
+I have prior industry experience as a Senior Research Data Scientist and currently contribute as a Teaching Assistant while continuing to deepen my work in analytics, ML, and decision science.
 
 ---
 
@@ -55,6 +55,12 @@ I work with product, engineering, and business teams to turn analytical insight 
 ---
 
 ## Selected Impact
+
+### Teaching Assistant | University of North Texas
+Aug 2026 - Present
+
+- Mentor students in statistical modeling, forecasting, experimental design, and scientific communication.
+- Support rigorous analytical thinking and practical decision-making in data science and analytics coursework.
 
 ### Senior Research Data Scientist | dunnhumby
 Jul 2022 - Nov 2025

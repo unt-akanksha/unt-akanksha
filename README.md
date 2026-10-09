@@ -18,7 +18,7 @@
 
 ## About Me
 
-Data scientist with 4+ years of experience building production forecasting, recommendation, NLP, and decision-support systems from large-scale structured and unstructured data. I work across the full ML lifecycle—from framing business problems and designing experiments to productionizing models and driving measurable impact.
+Data scientist with 4+ years of experience building production forecasting, recommendation, NLP, and decision-support systems from large-scale structured and unstructured data. My work is grounded in a strong quantitative background in statistics and operational research, which shapes how I frame problems, design experiments, and build decision-oriented ML systems.
 
 I partner with product, engineering, and commercial teams to convert analytical insights into scalable solutions that improve customer experience, campaign performance, and operational efficiency.
 
@@ -113,8 +113,10 @@ I enjoy transforming research ideas into scalable, production-friendly systems g
 
 - Master of Science in Advanced Data Analytics, University of North Texas
 - Master of Science in Operational Research, University of Delhi
-- Bachelor of Science in Statistics, University of Delhi
+- B.Sc. (Hons.) in Statistics, University of Delhi
 - Certificate in Applications of AI Engineering, CodePath
+
+Strong quantitative foundation in statistics, optimization, decision science, and analytical modeling.
 
 ---
 

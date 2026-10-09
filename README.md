@@ -123,13 +123,19 @@ I enjoy transforming research ideas into scalable, production-friendly systems g
 
 ---
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=unt-akanksha&show_icons=true&theme=tokyonight" alt="GitHub stats" />
-</p>
+## What I Bring
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=unt-akanksha&theme=tokyonight" alt="GitHub streak" />
+  <img src="https://img.shields.io/badge/ML%20Systems-Production%20Ready-8A2BE2" />
+  <img src="https://img.shields.io/badge/Forecasting-Econometrics-00C7B7" />
+  <img src="https://img.shields.io/badge/NLP-Embeddings%20%26%20Retrieval-FF7F50" />
+  <img src="https://img.shields.io/badge/GenAI-RAG%20%26%20Evaluation-6A5ACD" />
 </p>
+
+- Building data products that connect research to measurable business outcomes
+- Translating experimentation, optimization, and customer data into action
+- Designing scalable ML pipelines in cloud environments and production settings
+- Collaborating across product, engineering, and commercial teams
 
 ---
 

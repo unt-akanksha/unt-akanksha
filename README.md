@@ -93,6 +93,17 @@ Aug 2021 - Oct 2021
 
 Strong quantitative foundation in statistics, optimization, and decision science.
 
+### CodePath AI Engineering Certificate
+
+Coursework and practical exposure included:
+
+- Python and software engineering fundamentals
+- APIs, application integration, and backend workflows
+- Data handling, feature pipelines, and ML development
+- Prompt engineering and LLM interaction patterns
+- Retrieval-augmented generation (RAG) and AI application design
+- AI product thinking, evaluation, and deployment basics
+
 ---
 
 ## Research

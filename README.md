@@ -30,7 +30,9 @@ I partner with product, engineering, and commercial teams to convert analytical 
 - Recommendation systems and personalization
 - NLP, embeddings, and multimodal retrieval
 - Customer segmentation and clustering
+- Marketing Mix Modeling and media-efficiency analysis
 - A/B testing, experimentation, and incrementality
+- Causal inference and decision science
 - Optimization and allocation modeling
 - Generative AI, RAG, and model evaluation
 
@@ -60,6 +62,7 @@ I partner with product, engineering, and commercial teams to convert analytical 
 ### Adjacent capabilities
 
 - MLOps and deployment workflows
+- Marketing Mix Modeling and channel-level media measurement
 - Experiment design and causal inference thinking
 - Feature engineering and pipeline orchestration
 - Data quality assurance and monitoring
@@ -75,6 +78,7 @@ I partner with product, engineering, and commercial teams to convert analytical 
 Jul 2022 - Nov 2025
 
 - Built econometric and LSTM forecasting models on 10M+ transactions to explain national-media drivers and forecast spend.
+- Developed Long-term Multichannel Modeling using an ML-first Marketing Mix Modeling framework to uncover channel characteristics and guide medium- to long-term marketing investments.
 - Developed multimodal retrieval using ResNet image embeddings and BERT text embeddings, improving mAP by 18% and CTR by 8%.
 - Productionized PySpark scoring for 5M+ customer-product pairs, reducing batch time by 40%.
 - Built a FastText product-substitution engine that improved substitute-suggestion accuracy by 22%.

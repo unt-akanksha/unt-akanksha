@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <em>Graduate student in data analytics and operations research, with applied experience in forecasting, MMM, NLP, and decision science.</em>
+  <em>Graduate student in data analytics and operations research, transitioning toward AI engineering with a focus on machine learning systems, LLM workflows, and decision-support applications.</em>
 </p>
 
 <p align="center">
@@ -18,23 +18,24 @@
 
 ## About Me
 
-Graduate student at the University of North Texas with a strong analytical foundation in statistics, operational research, and applied data science. I build forecasting, recommendation, NLP, and decision-support systems using large-scale structured and unstructured data, and I am especially interested in media measurement, experimentation, and optimization.
+Graduate student at the University of North Texas with a strong foundation in statistics, operational research, and applied data science. I am actively transitioning toward AI engineering, with interest in machine learning systems, LLM-based workflows, retrieval and recommendation systems, and production-grade AI applications.
 
-I have prior industry experience as a Senior Research Data Scientist and currently contribute as a Teaching Assistant while continuing to deepen my work in analytics, ML, and decision science.
+My background includes forecasting, multimodal retrieval, experimentation, marketing mix modeling, and optimization — with prior industry experience as a Senior Research Data Scientist and current work as a Teaching Assistant for Applied Statistics.
 
 ---
 
 ## Core Strengths
 
+- Machine learning system design and deployment
 - Forecasting and demand modeling
-- Marketing Mix Modeling (MMM) and media-efficiency analysis
 - Recommendation systems and personalization
 - NLP, embeddings, and multimodal retrieval
-- Customer segmentation and clustering
+- Marketing Mix Modeling (MMM) and media-efficiency analysis
 - A/B testing, experimentation, and incrementality
 - Causal inference and decision science
 - Optimization and allocation modeling
 - Generative AI, RAG, and model evaluation
+- AI product thinking and practical ML engineering
 
 ---
 
@@ -103,19 +104,20 @@ Strong quantitative foundation in statistics, optimization, and decision science
 
 ## Current Focus
 
-- Production-grade forecasting and decision systems
+- AI engineering and production ML systems
+- LLM workflows, retrieval, and AI application design
+- Forecasting and decision systems
 - MMM, media measurement, and channel optimization
 - Recommendation and personalization at scale
 - Multimodal AI and retrieval-based systems
-- Generative AI with evaluation and business alignment
 
 ---
 
 <p align="center">
-  <img src="https://img.shields.io/badge/ML%20Systems-Production%20Ready-8A2BE2" />
-  <img src="https://img.shields.io/badge/Forecasting-Econometrics-00C7B7" />
+  <img src="https://img.shields.io/badge/AI%20Engineering-ML%20Systems-8A2BE2" />
+  <img src="https://img.shields.io/badge/LLM-Applications%20%26%20RAG-00C7B7" />
   <img src="https://img.shields.io/badge/NLP-Embeddings%20%26%20Retrieval-FF7F50" />
-  <img src="https://img.shields.io/badge/GenAI-RAG%20%26%20Evaluation-6A5ACD" />
+  <img src="https://img.shields.io/badge/Decision%20Science-Forecasting%20%26%20MMM-6A5ACD" />
 </p>
 
 <p align="center">

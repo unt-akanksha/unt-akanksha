@@ -86,6 +86,12 @@ Aug 2021 - Oct 2021
 
 ## Projects
 
+### [Biohub Cell Tracking Tooling](https://github.com/unt-akanksha/biohub-cell-tracking-competition) | ML competition infrastructure
+Python · Kaggle CLI
+
+- Built an offline-first control plane for a Kaggle cell-tracking competition: a CLI that snapshots live competition state and keeps an immutable experiment registry.
+- Enforces a fail-closed GPU workflow (register → preflight → authorize → execute → watchdog) with a protected GPU-hours reserve, and statically audits top public leaderboard notebooks for known exploits before treating them as clean.
+
 ### [LLM Fund-Selection Bias](https://github.com/unt-akanksha/llm-fund-bias) | Behavioral experiment on LLM agents
 Python · Ollama · pandas · statsmodels · pytest
 
@@ -120,12 +126,6 @@ Python · TensorFlow/Keras · scikit-learn
 
 - Compared a CNN trained from scratch with a fine-tuned ResNet50 on 9,548 class-imbalanced images across five skin-condition classes, with data augmentation during training.
 - The from-scratch CNN reached 92.3% validation accuracy vs. 57.1% for the fine-tuned ResNet50 on the same split. Academic project, not a clinical tool.
-
-### [Biohub Cell Tracking Tooling](https://github.com/unt-akanksha/biohub-cell-tracking-competition) | ML competition infrastructure
-Python · Kaggle CLI
-
-- Built an offline-first control plane for a Kaggle cell-tracking competition: a CLI that snapshots live competition state and keeps an immutable experiment registry.
-- Enforces a fail-closed GPU workflow (register → preflight → authorize → execute → watchdog) with a protected GPU-hours reserve, and statically audits top public leaderboard notebooks for known exploits before treating them as clean.
 
 ---
 

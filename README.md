@@ -84,6 +84,18 @@ Aug 2021 - Oct 2021
 
 ---
 
+## Projects
+
+### [LLM Fund-Selection Bias](https://github.com/unt-akanksha/llm-fund-bias) | Behavioral experiment on LLM agents
+Python · Ollama · pandas · statsmodels · pytest
+
+- Designed a controlled experiment testing whether injected documents and user-memory statements pull LLM agents away from an objectively dominant fund, adapting Wharton's agentic-shopping study design to finance.
+- Ran 2,200 logged, reproducible model calls on two local open models (Llama 3.1 8B, Qwen 2.5 7B), with seeded shuffling, resumable append-only logs, a design frozen before the main runs, and 0% parse failures.
+- Found that a single ~200-word document moved 93–100% of picks to the fund it recommended, and one sentence of user memory ("I love tech companies!") moved 98–100% to a high-fee tech fund. Without context, 75–86% of picks went to the dominant fund.
+- Estimated effects with Wilson confidence intervals, linear probability models with HC3 robust standard errors, and chi-square tests. A confirmatory order test showed that reordering the same three sources moved the dominant-fund rate from 98–99% down to as low as 41%.
+
+---
+
 ## Education
 
 - Master of Science in Advanced Data Analytics, University of North Texas

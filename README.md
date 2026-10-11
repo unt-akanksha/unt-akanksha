@@ -124,8 +124,8 @@ Python · Hugging Face Transformers · DistilBERT · Groq · Gradio
 ### [Skin Disease Classification](https://github.com/unt-akanksha/Skin-Disease-Classification) | Image classification (academic)
 Python · TensorFlow/Keras · scikit-learn
 
-- Compared a CNN trained from scratch with a fine-tuned ResNet50 on 9,548 class-imbalanced images across five skin-condition classes, with data augmentation during training.
-- The from-scratch CNN reached 92.3% validation accuracy vs. 57.1% for the fine-tuned ResNet50 on the same split. Academic project, not a clinical tool.
+- Compared a CNN trained from scratch with ResNet50 transfer learning across five skin-condition classes. Found that the published 9,548-image dataset was 341 photos × 28 pre-made augmentations, so the original file-level split leaked every validation photo into training.
+- After splitting by source photo and fixing ResNet50's input preprocessing, ResNet50 reached 85.9% test accuracy (macro-F1 0.85) on 52 held-out photos vs. 55.9% for the from-scratch CNN, reversing the earlier leaky result (92.3% vs. 57.1%). Academic project, not a clinical tool.
 
 ---
 

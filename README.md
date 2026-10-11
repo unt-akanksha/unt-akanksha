@@ -153,8 +153,8 @@ Coursework and practical exposure included:
 
 ## Research
 
-- RG-TTA: Regime-Guided Meta-Control for Test-Time Adaptation in Streaming Time Series
-- Regime-Calibrated Demand Priors for Ride-Hailing Fleet Dispatch and Repositioning
+- [RG-TTA: Regime-Guided Meta-Control for Test-Time Adaptation in Streaming Time Series](https://arxiv.org/abs/2603.27814) (arXiv:2603.27814)
+- [Regime-Calibrated Fleet Repositioning with a Spatial Queue-Regret Decomposition](https://arxiv.org/abs/2604.03883) (arXiv:2604.03883)
 
 ---
 

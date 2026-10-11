@@ -94,6 +94,39 @@ Python · Ollama · pandas · statsmodels · pytest
 - Found that a single ~200-word document moved 93–100% of picks to the fund it recommended, and one sentence of user memory ("I love tech companies!") moved 98–100% to a high-fee tech fund. Without context, 75–86% of picks went to the dominant fund.
 - Estimated effects with Wilson confidence intervals, linear probability models with HC3 robust standard errors, and chi-square tests. A confirmatory order test showed that reordering the same three sources moved the dominant-fund rate from 98–99% down to as low as 41%.
 
+### [AI Research Assistant](https://github.com/unt-akanksha/rag-research-assistant) | RAG over PDF papers
+Python · Streamlit · FAISS · sentence-transformers · OpenAI-compatible LLMs · pytest
+
+- Built a retrieval-augmented assistant that answers questions over uploaded PDFs with inline citations (file, page, chunk) and refuses out-of-scope questions through a relevance gate instead of guessing.
+- Implemented page-aware chunking, hybrid vector + lexical ranking, follow-up query rewriting, summaries and multi-paper comparison. It runs with OpenAI, Groq or local Ollama models, or with no API key in extractive mode.
+- Built an evaluation suite (hit rate, MRR, precision@k, context recall, groundedness, optional LLM judge). On three research papers with an 11-question test set, a chunk-size × top-k sweep raised context recall from 0.69 to 0.99. Covered by 29 offline unit tests.
+
+### [Provenance Guard](https://github.com/unt-akanksha/Provenance-guard) | AI-generated text detection API
+Python · Flask · Groq (Llama 3.3 70B) · SQLite · Flask-Limiter
+
+- Designed a 3-signal detection ensemble (LLM classifier, stylometric heuristics, vocabulary burstiness) with documented weights and a separate weighting for short texts.
+- Set confidence thresholds around the cost of falsely accusing a human writer: a wide "uncertain" band, and an AI threshold recalibrated from 0.85 to 0.78 after testing showed the original was unreachable.
+- Shipped a creator appeals workflow, SQLite audit log, per-endpoint rate limits, an analytics endpoint tracking appeal rate, and a human-verification "provenance certificate".
+
+### [TakeMeter](https://github.com/unt-akanksha/Takemeter) | Fine-tuned text classifier
+Python · Hugging Face Transformers · DistilBERT · Groq · Gradio
+
+- Fine-tuned DistilBERT to label r/nba posts as analysis, hot take or reaction, using a custom label taxonomy with written decision rules for edge cases and a 207-example dataset (LLM-generated, then reviewed against the taxonomy).
+- Reached 100% accuracy on a 32-example test set vs. 78.1% for a zero-shot Llama 3.3 70B baseline, after retuning hyperparameters when the first run underperformed the baseline (68.8%).
+- Error analysis showed all 7 baseline errors were the same confusion, analysis labeled as hot take, on posts citing one statistic followed by a confident conclusion.
+
+### [Skin Disease Classification](https://github.com/unt-akanksha/Skin-Disease-Classification) | Image classification (academic)
+Python · TensorFlow/Keras · scikit-learn
+
+- Compared a CNN trained from scratch with a fine-tuned ResNet50 on 9,548 class-imbalanced images across five skin-condition classes, with data augmentation during training.
+- The from-scratch CNN reached 92.3% validation accuracy vs. 57.1% for the fine-tuned ResNet50 on the same split. Academic project, not a clinical tool.
+
+### [Biohub Cell Tracking Tooling](https://github.com/unt-akanksha/biohub-cell-tracking-competition) | ML competition infrastructure
+Python · Kaggle CLI
+
+- Built an offline-first control plane for a Kaggle cell-tracking competition: a CLI that snapshots live competition state and keeps an immutable experiment registry.
+- Enforces a fail-closed GPU workflow (register → preflight → authorize → execute → watchdog) with a protected GPU-hours reserve, and statically audits top public leaderboard notebooks for known exploits before treating them as clean.
+
 ---
 
 ## Education

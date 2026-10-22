@@ -93,12 +93,12 @@ Python · Kaggle CLI
 - Enforces a fail-closed GPU workflow (register → preflight → authorize → execute → watchdog) with a protected GPU-hours reserve, and statically audits top public leaderboard notebooks for known exploits before treating them as clean.
 
 ### [LLM Fund-Selection Bias](https://github.com/unt-akanksha/llm-fund-bias) | Behavioral experiment on LLM agents
-Python · Ollama · pandas · statsmodels · pytest
+Python · OpenAI & Anthropic APIs · Ollama · pandas · statsmodels · SciPy · matplotlib · pytest
 
-- Designed a controlled experiment testing whether injected documents and user-memory statements pull LLM agents away from an objectively dominant fund, adapting Wharton's agentic-shopping study design to finance.
-- Ran 2,200 logged, reproducible model calls on two local open models (Llama 3.1 8B, Qwen 2.5 7B), with seeded shuffling, resumable append-only logs, a design frozen before the main runs, and 0% parse failures.
-- Found that a single ~200-word document moved 93–100% of picks to the fund it recommended, and one sentence of user memory ("I love tech companies!") moved 98–100% to a high-fee tech fund. Without context, 75–86% of picks went to the dominant fund.
-- Estimated effects with Wilson confidence intervals, linear probability models with HC3 robust standard errors, and chi-square tests. A confirmatory order test showed that reordering the same three sources moved the dominant-fund rate from 98–99% down to as low as 41%.
+- Designed an experiment testing whether persuasive documents (brand popularity, a fabricated expert survey, past performance) push LLM agents from the cheaper of two same-index ETFs to a costlier one, using verified issuer fact-sheet data (S&P 500: SPY/IVV/VOO; Nasdaq-100: QQQ/QQQM) and cost regret in basis points as ground truth.
+- Ran 11,200 seeded, logged calls across 8 models from 3 families (OpenAI gpt-5.4 nano/mini/full, Anthropic Claude Haiku/Sonnet/Opus 5.5, local Qwen 2.5 7B/14B), crossing 5 contexts × 2 prompt templates × 2 system prompts (standard vs fiduciary). Built a multi-provider runner with hard spend caps ($18.50 total API cost), resumable logs, a design frozen before the runs, and a quality gate with manual review.
+- Found that baseline quality and robustness diverge: gpt-5.4-nano and mini chose the cheaper fund without context but switched to the costlier one in up to 98–100% of picks after one persuasive document; Qwen favored the costlier Nasdaq-100 fund even without one (58–81%); gpt-5.4 and all three Claude models never switched. A one-sentence fiduciary instruction cut persuasion by 18–45 points for some models and had no effect on others.
+- Reported risk differences with Newcombe confidence intervals and one-sided Fisher tests with Holm correction, plus robustness checks (same effect direction across templates in 47 of 48 contrasts; matched 30-run comparison). Earlier iterations (fictional funds; 13 real ETFs) and a source-checked literature review on persuasion, sycophancy and fiduciary rules are in the repo.
 
 ### [AI Research Assistant](https://github.com/unt-akanksha/rag-research-assistant) | RAG over PDF papers
 Python · Streamlit · FAISS · sentence-transformers · OpenAI-compatible LLMs · pytest

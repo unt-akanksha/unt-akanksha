@@ -86,6 +86,14 @@ Aug 2021 - Oct 2021
 
 ## Projects
 
+### American Airlines Market Demand Forecasting | Capstone with AA Network Planning (UNT, Fall 2026)
+Python · LightGBM · statsforecast · NeuralForecast · Chronos · pandas · Snowflake
+
+- Forecast monthly origin–destination passenger demand, revenue and average fare 1–24 months ahead for every airport-pair market in American Airlines' network-planning data, summed bottom-up to station, region and network totals: the horizon on which schedules (on sale 330 days out) and long-haul capacity are committed.
+- Benchmarked the full model landscape against a seasonal-naive baseline on four rolling, time-ordered forecast origins. Per-route ARIMA/ETS/Theta, tuned N-BEATSx and TFT, and zero-shot foundation models (Chronos-2, TimesFM, TiRex, Toto) all failed to beat it; one global LightGBM with horizon-aware training rows, absolute-error loss and a recent-origins training window did.
+- Final model blends LightGBM (0.35) with a three-year seasonal average on COVID-repaired history (0.65), weighted down from 50/50 because the tree model's bias compounds when markets are summed. It cut MASE by 9.3% vs. the benchmark for passengers, 10.8% for revenue and 14.9% for fare, and won at every hierarchy level, region and horizon.
+- Split-conformal 80%/50% prediction intervals validated level by level (81.5% coverage for markets); region and network intervals were withheld after failing validation. Features were accepted only above a random-probe noise floor, two target leaks were found and closed, and a route-level event study showed a Super Bowl effect concentrated on the competing teams' routes and invisible at airport level. Every number in the paper is generated from pipeline outputs and reproduced from a clean rebuild. Code is private: the sponsor's data is under NDA.
+
 ### [Biohub Cell Tracking Tooling](https://github.com/unt-akanksha/biohub-cell-tracking-competition) | ML competition infrastructure
 Python · Kaggle CLI
 

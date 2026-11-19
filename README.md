@@ -35,6 +35,8 @@ My background includes forecasting, multimodal retrieval, experimentation, marke
 - Causal inference and decision science
 - Optimization and allocation modeling
 - Generative AI, RAG, and model evaluation
+- LLM behavioral evaluation: controlled experiments, robustness and persuasion testing
+- Statistical inference: confidence intervals, exact tests, multiple-testing correction
 - AI product thinking and practical ML engineering
 
 ---
@@ -52,6 +54,11 @@ My background includes forecasting, multimodal retrieval, experimentation, marke
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![SageMaker](https://img.shields.io/badge/SageMaker-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+
+![OpenAI API](https://img.shields.io/badge/OpenAI%20API-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Anthropic API](https://img.shields.io/badge/Anthropic%20API-191919?style=for-the-badge&logo=anthropic&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
+![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
 
 ---
 
@@ -174,6 +181,7 @@ Coursework and practical exposure included:
 - MMM, media measurement, and channel optimization
 - Recommendation and personalization at scale
 - Multimodal AI and retrieval-based systems
+- Reliability and robustness of LLM agents in financial decisions
 
 ---
 
